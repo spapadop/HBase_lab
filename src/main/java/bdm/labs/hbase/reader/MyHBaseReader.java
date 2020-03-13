@@ -65,7 +65,6 @@ public class MyHBaseReader implements MyReader {
 		}
 		FilterList allFilters = new FilterList();
 		allFilters.filterRowKey(Bytes.toBytes("Yug"), 0, 3);
-		allFilters.
 
 		//scan.setFilter()
 		
